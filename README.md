@@ -1,4 +1,4 @@
-# The Atlantic
+# The Atlantic by Fernando
 
 Construye una réplica del antiguo periódico norteamericano "The Atlantic".
 
