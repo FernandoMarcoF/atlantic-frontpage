@@ -12,12 +12,12 @@ server.use(express.static(path.join(__dirname, '../dist')))
 
 server.use(cors())
 
-server.use('/api/frontpage', (req, res) => {
+server.get('/api/frontpage', (req, res) => {
   res.json({
     "header": {
       "menu": ["Popular", "Latest", "Newsletters"],
       "logo": "The Atlantic",
-      "userOptions": ["Saved Stories", "My Account", "Give a Gift"]
+      "userOptions": ["Sing In", "Subscribe",]
     },
     "mainArticles": [
       {
