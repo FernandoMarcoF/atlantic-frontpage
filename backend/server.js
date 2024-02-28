@@ -17,7 +17,7 @@ server.get('/api/frontpage', (req, res) => {
     "header": {
       "menu": ["Popular", "Latest", "Newsletters"],
       "logo": "The Atlantic",
-      "userOptions": ["Sing In", "Subscribe",]
+      "userOptions": ["Sing In", "Subscribe"]
     },
     "mainArticles": [
       {

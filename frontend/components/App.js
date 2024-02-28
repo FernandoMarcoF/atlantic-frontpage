@@ -8,10 +8,10 @@ import Main from './Main'
 //los componenetes pueden pasar tantos atributos como queramos
 export default function App() {
   const [data, setData] = useState(null)
-  useEffect(()=>{
+  useEffect(() => {
     //codigo arbitrario
     console.log('El componente esta en el DOM')
-    axios.get('/api/frontpage').then(response =>{
+    axios.get('/api/frontpage').then(response => {
       //la respuesta (response) viene por HTTP
       const frontpage = response.data
       setData(frontpage)
